@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html table</title>
+</head>
+<style>
+  /* table{
+    width: 100%;
+  } */
+table,th,td{
+  /* border: 1px solid red; */
+  border-collapse: collapse;
+  /* border-radius: 15px; */
+  border-style:outset;
+  border-color: blue;
+}
+tr:nth-child(even){
+  background-color: red;
+}
+/* th:nth-child(odd),td:nth-child(odd){
+  background-color: red;
+} */
+th:nth-child(even),td:nth-child(even){
+  background-color: red;
+}
+
+
+
+</style>
+<body>
+  <!-- <h1>this is table</h1> -->
+
+  <!-- table tag -->
+
+  <!-- arrange the data into row and column -->
+  <!-- table,tr,th,td -->
+  <table style="width: 100%;">
+    <!-- tr is table row -->
+<tr>
+  <!-- table header -->
+  <!-- table header can be vertical and horizental -->
+    <!-- <th rowspan="2">First Name</th> -->
+    <!-- <th colspan="2">First Name</th> -->
+    <th >First Name</th>
+    <th >second Name</th>
+    <th>Age</th>
+    <!-- <th style="width: 80%;">Second Name</th> -->
+    <!-- th is always bold  and center -->
+    
+  </tr>
+  <tr>
+    <!-- table data -->
+    <!-- table cell -->
+    <td>Rashid</td>
+    <td>Muna</td>
+    <td>24</td>
+  
+  </tr>
+  <tr>
+    <td>Technical</td>
+    <td>bhai</td>
+    
+      <td>26</td>
+</tr>
+
+  </table>
+
+</body>
+</html>
